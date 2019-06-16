@@ -13,8 +13,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css.css">
+        
         <link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Josefin+Slab:400,700|Poiret+One|Righteous&display=swap" rel="stylesheet">
+        <link href="open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+        <link rel="stylesheet" href="css.css">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -27,26 +30,20 @@
 
         <div class="bigbox">
 
-                <div class="container">
-                    <h2 class="mb-3 mt-3 pl-2 pt-2">Professional</h2>
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                        </div>
-                        <div class="col-md-11">
-                            <h4><a href="https://www.linkedin.com/in/bhowell/">LinkedIn Profile</a></h4>
+                <div class="container p-3">
+                    <h2 class="mb-3 pl-2 pt-2">Professional</h2>
+                    <div class="row mb-2">
+                        <div class="col-md-12">
+                            <h4><a href="https://www.linkedin.com/in/bhowell/">LinkedIn Profile</a></h4><i class='fas fa-external-link-square-alt' style='color:#007A87'></i>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-1">
-                            <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                        </div>
-                        <div class="col-md-11">
-                            <h4><a href="" data-toggle="collapse" data-target="#collapseOne">Mini Resume</a></h4>
-                            <div class="collapse" id="collapseOne">
+                    <div class="row mb-2">
+                        <div class="col-md-12">
+                            <h4><a href="" data-toggle="collapse" data-target="#collapseOne">Mini Resume</a></h4><i class='fas fa-plus' style='color:#007A87'></i>
+                            <div class="collapse mt-3 mb-3 pb-3" id="collapseOne">
 
 
-                                    <h5>Positions Held:</h5>
+                                    <h5 class="mt-3">Positions Held:</h5>
 
                                     <table>
                                         <tr>
@@ -69,7 +66,7 @@
                                         </tr>
                                     </table>
         
-                                    <h5>Education:</h5>
+                                    <h5 class="mt-3">Education:</h5>
         
                                     <table>
                                         <tr>
@@ -85,28 +82,43 @@
                             
                         </div>
                     </div>
+                    <div class="row mb-2">
+                        <div class="col-md-12">
+                            <h4><a href="" data-toggle="collapse" data-target="#collapseThree">Bio</a></h4><i class='fas fa-plus' style='color:#007A87'></i>
+                            <div class="collapse mt-3 mb-3 pt-3" id="collapseThree">
+                                    <img class="rounded float-left mr-3 mb-3" alt="Me." src="oranges.jpg">
+                                    <p>
+                                        15+ years experience in digital marketing, people management, web development, and growing profits at agency and in-house settings. Cool under pressure and always up for a challenge.
+                                    </p>
+                                    <p>
+                                        I started building websites in '98, back when the internet was young, before everyone who could hack a MySpace theme thought they were designers. Back when you'd rely on a webring footer to find cool new sites on the internet because search engines sucked. So yeah, get off my lawn, lol. A chance marketing elective in high school fascinated me and put me on my career path.
+                                    </p>
+                                    <p>
+                                        A college education and a little freelance work brought about my first real gig at an online marketing agency doing SEO (search engine optimization) work. Like most people that work in SEO, I stumbled in to it because I had an interest in marketing as well as web design/development. I did agency SEO work for three years before moving in-house as a LAMP stack web developer and SEO at a laboratory equipment company. Through a combination of hard work and good opportunities, I eventually became vice president of that company. From there I moved back into agency life and built an SEO department from scratch.
+                                    </p>
+                                    <p>
+                                        I'm currently heading both the SEO and CRO (converison rate optimization) teams at ROI Revolution, a digital marketing agency in Raleigh, NC.
+                                    </p>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
 
         </div> <!-- close #bigbox -->
 
 
         <div class="bigbox">
-            <div class="container">
-                <h2 class="mb-3 mt-3 pl-2 pt-2">Semi-Professional</h2>
-                <div class="row">
-                    <div class="col-md-1">
-                        <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                    </div>
-                    <div class="col-md-11">
-                        <h4><a href="https://github.com/tbrandonhowell/">GitHub Profile</a></h4>
+            <div class="container p-3">
+                <h2 class="mb-3 pl-2 pt-2">Semi-Professional</h2>
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h4><a href="https://github.com/tbrandonhowell/">GitHub Profile</a></h4><i class='fas fa-external-link-square-alt' style='color:#007A87'></i>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                    </div>
-                    <div class="col-md-11">
-                        <h4><a href="#">Full Stack Bootcamp Project Portfolio</a></h4>
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h4><a href="#">Full Stack Bootcamp Project Portfolio</a></h4><i class='fas fa-external-link-square-alt' style='color:#007A87'></i>
                     </div>
                 </div>
             </div>
@@ -114,23 +126,17 @@
         </div> <!-- close #bigbox -->
 
         <div class="bigbox">
-            <div class="container">
-                <h2 class="mb-3 mt-3 pl-2 pt-2">Not Professional</h2>
-                <div class="row">
-                    <div class="col-md-1">
-                        <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                    </div>
-                    <div class="col-md-11">
-                        <h4><a href="https://soundcloud.com/hollowbodybass">SoundCloud Profile</a></h4>
+            <div class="container p-3">
+                <h2 class="mb-3 pl-2 pt-2">Not Professional</h2>
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h4><a href="https://soundcloud.com/hollowbodybass">SoundCloud Profile</a></h4><i class='fas fa-external-link-square-alt' style='color:#007A87'></i>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-1">
-                        <img src="https://picsum.photos/300/300" class="img-fluid d-none d-md-block">
-                    </div>
-                    <div class="col-md-11">
-                        <h4><a href="" data-toggle="collapse" data-target="#collapseTwo">Parked Domains</a></h4>
-                        <div class="collapse" id="collapseTwo">
+                <div class="row mb-2">
+                    <div class="col-md-12">
+                        <h4><a href="" data-toggle="collapse" data-target="#collapseTwo">Parked Domains</a></h4><i class='fas fa-plus' style='color:#007A87'></i>
+                        <div class="collapse mt-3 mb-3 pt-3" id="collapseTwo">
                             <ul>
                                 <li><a href="http://www.gibsonthunderbird.com/">GibsonThunderbird.com</a></li>
                                 <li><a href="http://www.hollowbodybass.com/">HollowbodyBass.com</a></li>
@@ -145,9 +151,9 @@
 
 
         <div class="bigbox">
-            <div class="container">
-                <h2 class="mb-3 mt-3 pl-2 pt-2">Unprofessional</h2>
-                <div class="row">
+            <div class="container p-3">
+                <h2 class="mb-3 pl-2 pt-2">Unprofessional</h2>
+                <div class="row mb-2">
                     <div class="col-md-12">
                         <h4>You didn't think I'd actually list anything here, did you?</h4>
                     </div>
@@ -157,7 +163,7 @@
 
         <div id="footerbox">
             <p>&copy; 2019</p>
-            <p>Built With: HTML/CSS/Bootstrap/jQuery</p>
+            <p>Built With: HTML / CSS / Bootstrap / jQuery / Google Fonts / <a href="https://fontawesome.com/">Font Awesome</a></p>
         </div>
         
         

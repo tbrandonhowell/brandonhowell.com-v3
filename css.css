@@ -47,6 +47,11 @@ h2 {
     color: #ffffff;
 }
 
+h4 {
+    display: inline;
+    margin-right: 10px;
+}
+
 #footerbox {
     background-color: #54585C;
     color: #ffffff;
@@ -59,3 +64,19 @@ h2 {
     font-family: 'Josefin Slab', serif; 
     text-align: center;
 }
+
+#footerbox a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.collapse {
+    border-top: 1px solid #DCDDE2;
+    border-bottom: 1px solid #DCDDE2;
+}
+
+table, th, td {
+    border: 1px solid #DCDDE2;
+    padding: 6px;
+  }
+
