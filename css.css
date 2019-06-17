@@ -80,6 +80,25 @@ table, th, td {
     padding: 6px;
   }
 
-#biopic {
-    margin: auto;
+/* #biopic {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+} */
+
+.caption {
+    font-size: .7rem;
 }
+
+/* @media screen and (max-width: 768px) { */
+    #biopic {
+        width: 200px;
+        float: none;
+        margin: auto;
+    }
+    #biopic img {
+        display: block;
+        margin: auto;
+    }
+/* } */
